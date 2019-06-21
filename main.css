@@ -10,13 +10,14 @@ body{
   color: white;
 }
 header{
-  margin: 10% 0 2% 0;
+  margin: 20% 0 2% 0;
 }
 h1{
   font-family: 'Alfa Slab One', serif;
   font-weight: 400;
   font-size: 3rem;
   letter-spacing: .1rem;
+  transition: all .8s ease;
 }
 h2, p{
   font-family: 'Source Sans Pro', sans-serif;
@@ -28,6 +29,7 @@ button{
   margin: 10px;
   letter-spacing: .1rem;
   font-family: 'Alfa Slab One', serif;
+  text-shadow: 2px 2px #282828;
   border-bottom: 5px solid #073e47;
   font-size: 2rem;
   font-weight: 400;
@@ -39,4 +41,21 @@ button:active, button:focus{
 button:active{
   border-bottom: 2px solid #073e47;
   transform: translateY(3px);
+}
+span{
+  font-family: 'Alfa Slab One', serif;
+  font-weight: 400;
+  /* letter-spacing: .1rem; */
+}
+#generator-results{
+  overflow: hidden;
+}
+#generator-button{
+  margin-bottom: 5%;
+}
+#result{
+  transition: all .8s ease;
+}
+.hidden{
+  transform: translateY(-100%);
 }
