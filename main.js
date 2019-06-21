@@ -21,6 +21,7 @@ var restaurantList = [
   'Row 34',
   'Luke’s Lobster Back Bay',
 ];
+restaurantList.sort(function(a, b){return 0.5 - Math.random()});
 
 var myFunction = function(){
   resturantResult.innerHTML = restaurantList[0];
