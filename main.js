@@ -1,9 +1,6 @@
 var button = document.getElementsByTagName('button')[0];
-var myHeading = document.getElementsByTagName('h1')[0];
 var result = document.getElementById('result');
-var resturantResult = document.getElementById('random-result')
-
-
+var resturantResult = document.getElementById('random-result');
 var restaurantList = [
   'The Salty Pig',
   'Parish Cafe and Bar',
